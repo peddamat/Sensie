@@ -6839,7 +6839,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="264.16" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ANALOG_VPP_ENABLE" class="0">
+<net name="ANALOG_ENABLE" class="0">
 <segment>
 <wire x1="143.51" y1="191.77" x2="161.29" y2="191.77" width="0.1524" layer="91"/>
 <label x="146.05" y="191.77" size="1.778" layer="95"/>
@@ -6848,7 +6848,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="325.12" y1="45.72" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
-<label x="299.72" y="45.72" size="1.778" layer="95"/>
+<label x="306.832" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AN4" class="0">
