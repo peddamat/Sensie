@@ -6759,6 +6759,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M07" device=""/>
 <part name="JP3" library="bafoontecha" deviceset="USB" device="-MICROB"/>
+<part name="JP4" library="bafoontecha" deviceset="USB" device="-MICROB"/>
+<part name="JP5" library="bafoontecha" deviceset="USB" device="-MICROB"/>
 </parts>
 <sheets>
 <sheet>
@@ -6838,6 +6840,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND12" gate="1" x="332.74" y="35.56"/>
 <instance part="JP2" gate="G$1" x="279.4" y="38.1" rot="R180"/>
 <instance part="JP3" gate="G$1" x="175.26" y="121.92"/>
+<instance part="JP4" gate="G$1" x="190.5" y="121.92"/>
+<instance part="JP5" gate="G$1" x="205.74" y="121.92"/>
 </instances>
 <busses>
 </busses>

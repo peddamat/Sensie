@@ -6340,18 +6340,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="312.42" y="106.68"/>
 </segment>
 <segment>
-<pinref part="SENSOR" gate="G$1" pin="6"/>
-<wire x1="274.32" y1="76.2" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="264.16" y="76.2" size="1.778" layer="95"/>
-<junction x="274.32" y="76.2"/>
-</segment>
-<segment>
 <pinref part="J2" gate="-2" pin="S"/>
 <wire x1="287.02" y1="223.52" x2="287.02" y2="222.25" width="0.1524" layer="91"/>
 <junction x="287.02" y="223.52"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <junction x="287.02" y="222.25"/>
 <wire x1="287.02" y1="222.25" x2="287.02" y2="221.996" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SENSOR" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
+<label x="264.16" y="88.9" size="1.778" layer="95"/>
+<junction x="274.32" y="88.9"/>
 </segment>
 </net>
 <net name="VIN_USB" class="0">
@@ -6507,10 +6507,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="332.74" y="50.8"/>
 </segment>
 <segment>
-<pinref part="SENSOR" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
-<label x="264.16" y="88.9" size="1.778" layer="95"/>
-<junction x="274.32" y="88.9"/>
+<pinref part="SENSOR" gate="G$1" pin="6"/>
+<wire x1="274.32" y1="76.2" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
+<label x="264.16" y="76.2" size="1.778" layer="95"/>
+<junction x="274.32" y="76.2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
