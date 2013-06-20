@@ -1,0 +1,53 @@
+# Must Write
+
+## BMP085 Temperature Sensor
+
+* Read BMP data
+- Enable/disable BMP
+- Enable/disable BMP interrupt
+- Transmit BMP085 data
+
+## Nordic Wireless
+
+- Enable/disable Nordic
+- Dump Nordic transceiver specs  
+- Configure Nordic transceiver
+- Sending/receiving packets
+- Allow receiving commands from Nordic
+
+## Sensor Headers
+
+- Control Analog Pins
+- Enable/disable Analog Power
+
+## Bluetooth 
+
+- Serial port setup 9600 for Bluetooth
+- Bluetooth bootloader
+
+## Board-Specific
+
+- RTC setup
+- Power down entire board
+- Modify Bitwhacker for Sensie-specific functionality
+-- Disable MCLR in configuration
+- On power-up, try to connect to USB-host 5 times, then disable USB module.
+
+
+# Must Check
+
+- Final BOM count
+
+
+# Sensie Ideas
+
+- USB serial console
+- Beaglebone Shield
+
+
+--
+
+# Experimental?
+
+- Reprogram device over Nordic transceiver
+- ICD3 Adapter

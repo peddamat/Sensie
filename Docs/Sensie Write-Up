@@ -1,0 +1,21 @@
+Sensie Write-Up
+
+The Sensie is a low-cost, Nordic NRF24-based wireless sensor board.  For true sensor mass-acceptance, the price of sensor boards needs to be as low as possible.  My target for this project was to hit a per-board total cost, including Nordic Module, of $7.
+
+The Sensie has the following features:
+
+- iPod-charger powerable
+- Battery-powerable with JST PH-header
+
+- USB serial console
+- RTC for periodic sampling
+
+- Easily-accessible sensor headers
+- Ability to disable power to analog sensors
+- External counter pin
+
+- Drop-in BMP085 Barometer support
+- Drop-in Bluetooth module support
+
+- Fully wirelessly controllable sensors
+- A Beaglebone-based management interface 
